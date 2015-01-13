@@ -1,0 +1,12 @@
+# Site settings
+title: Radhika Andhavarapu
+email: sparkx.radhika@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Portfolio website of Radhika Andhavarapu, Full Stack Web + Android Developer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: dhiraka
+github_username:  07mi1020
+
+# Build settings
+markdown: kramdown
