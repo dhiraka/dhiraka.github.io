@@ -834,7 +834,7 @@ body {
 }
 
 #services{
-	margin-top: 200px;
+	margin-top: 250px;
 }
 
 	/* Services Wrap */
@@ -843,7 +843,7 @@ body {
 		margin-bottom: 80px;
 	}
 
-	#service i {
+	#home #service i {
 		color: #00b3fe;
 		font-size: 60px;
 		padding: 15px;
@@ -1220,8 +1220,8 @@ $Color_fullstack: #A53836;
 		padding-right: 25px;
 	}
 	#contact i a{
-			color: white;
-		}
+		color: white;
+	}
 
 	#contact i:hover {
 		color: #00b3fe
