@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
-@import url("templatemo_misc.css") screen;
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -195,6 +194,9 @@
 /*################################################################
 	HOME
 	################################################################# */
+#home{
+	background-color: #2B2E31;
+}
 
 #home body.blurred > * {
 	-webkit-filter: blur(2px);
