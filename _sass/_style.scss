@@ -1219,6 +1219,9 @@ $Color_fullstack: #A53836;
 		font-size: 30px;
 		color: #bfc9d3;
 		padding-right: 25px;
+		&: a{
+			color: white;
+		}
 	}
 
 	#contact i:hover {
