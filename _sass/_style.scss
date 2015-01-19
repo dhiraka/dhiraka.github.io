@@ -376,17 +376,6 @@
 		-moz-border-radius: 18px;
 	}
 
-	#home .main-header {
-		position: fixed;
-		width: 100%;
-		margin: 0 auto;
-		z-index: 99;
-		top: 420px;
-		-webkit-transition: all 150ms ease-in-out;
-		-moz-transition: all 150ms ease-in-out;
-		transition: all 150ms ease-in-out;
-	}
-
 	#home #menu-wrapper {
 		background-color: white;
 		overflow: hidden;
@@ -778,39 +767,6 @@ $Color_fullstack: #A53836;
 		right: -5px;
 		border-left: 0 none;
 		border-bottom: 0 none;
-	}
-
-	#twrap {
-		background: url(../assets/img/t-back.jpg) no-repeat center top;
-		margin-top: 0px;
-		padding-top:60px;
-		text-align:center;
-		background-attachment: relative;
-		background-position: center center;
-		min-height: 450px;
-		width: 100%;
-
-		-webkit-background-size: 100%;
-		-moz-background-size: 100%;
-		-o-background-size: 100%;
-		background-size: 100%;
-
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	#twrap i {
-		font-size: 50px;
-		color: white;
-		margin-bottom: 25px;
-	}
-
-	#twrap p {
-		color: #384452;
-		font-size: 15px;
-		line-height: 30px;
 	}
 
 /*	################################################################
