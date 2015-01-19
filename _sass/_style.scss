@@ -336,15 +336,6 @@
 		text-align: center;
 	}
 
-	#home .main-btn {
-		color: white;
-		border: 1px solid white;
-		padding: 12px 20px;
-		text-transform: uppercase;
-		font-weight: 700;
-		display: inline-block;
-	}
-
 	#home hr {
 		display: block;
 		height: 1px;
@@ -394,15 +385,6 @@
 		margin: 0 auto;
 		z-index: 99;
 		top: 420px;
-		-webkit-transition: all 150ms ease-in-out;
-		-moz-transition: all 150ms ease-in-out;
-		transition: all 150ms ease-in-out;
-	}
-
-	#home .scrolled {
-		position: fixed;
-		left: 0;
-		top: 0;
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
@@ -482,40 +464,6 @@
 		color: #ec523f;
 	}
 
-
-	#home .content-section {
-		margin-top: 80px;
-		padding-top: 60px;
-	}
-
-	#home .heading-section {
-		margin-bottom: 60px;
-	}
-	#home .heading-section h2 {
-		font-size: 28px;
-		font-weight: 600;
-		text-transform: uppercase;
-		border-bottom: 1px solid #444444;
-		display: inline-block;
-	}
-	#home .heading-section p {
-		color: #444444;
-		font-size: 16px;
-		font-weight: 300;
-		text-transform: uppercase;
-		margin-top: 10px;
-	}
-
-	#home .small-text {
-		color: #aaaaaa;
-	}
-
-	#home .space-fixed {
-		width: 100%;
-		height: 130px;
-		overflow: hidden;
-		position: relative;
-	}
 
 /*################################################################
 	WORK
@@ -859,7 +807,7 @@ $Color_fullstack: #A53836;
 	}
 
 	#twrap p {
-		color: white;
+		color: #384452;
 		font-size: 15px;
 		line-height: 30px;
 	}
