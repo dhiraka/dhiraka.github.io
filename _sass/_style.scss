@@ -356,17 +356,16 @@
 		height: 100vh;
 		background: #384452;
 	}
-	#about{
+	#home #about{
 		top: 10vh;
 	}
   #home .profile-photo{
 		background: url(../assets/img/radhi1.JPG) no-repeat;
-		height: 400px;
 	}
 	#home .site-header ul.social-icons {
 		position: relative;
 		z-index: 11;
-		top: 400px;
+		top: 440px;
 		margin: 30px 0;
 	}
 	#home .site-header ul.social-icons li {
