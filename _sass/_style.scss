@@ -353,16 +353,16 @@
 	}
 	#home .site-header{
 		height: 100vh;
-		background-color: #384452;
+		background: #384452;
 	}
   #home .profile-photo{
-		background: url(../assets/img/radhi1.jpg) no-repeat;
+		background: url(../assets/img/logo.jpg) no-repeat;
 		height: 400px;
 	}
 	#home .site-header ul.social-icons {
 		position: relative;
 		z-index: 11;
-		top: 380px;
+		top: 400px;
 		margin: 30px 0;
 	}
 	#home .site-header ul.social-icons li {
