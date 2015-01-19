@@ -202,10 +202,6 @@
 	.site-main{
 		color: #384452;
 	}
-	#home .site-header{
-		height: 100vh;
-		background: #384452;
-	}
 
 	#home body.blurred > * {
 		-webkit-filter: blur(2px);
@@ -225,6 +221,9 @@
 	#home ul {
 		list-style: none;
 	}
+
+
+
 
 	#home a:focus {
 		outline: none;
@@ -353,13 +352,48 @@
 		border-top: 1px solid #e2e2e2;
 		margin: 40px 0;
 	}
-	
+	#home .site-header{
+		height: 100vh;
+		background: #384452;
+	}
+	#home #about{
+		top: 10vh;
+	}
+  #home .profile-photo{
+		background: url(../assets/img/radhi1.JPG) no-repeat;
+		height: 300px;
+		border-radius: 150px/300px;
+		-moz-border-radius: 150px/300px;
+		-webkit-border-radius: 150px/300px;
+	}
+	#home .site-header ul.social-icons {
+		position: relative;
+		z-index: 11;
+		top: 440px;
+		margin: 30px 0;
+	}
+	#home .site-header ul.social-icons li {
+		display: inline-block;
+		margin: 0 2px;
+	}
+	#home .site-header ul.social-icons li a {
+		width: 36px;
+		height: 36px;
+		background-color: white;
+		color: #444444;
+		text-align: center;
+		line-height: 36px;
+		border-radius: 18px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+	}
+
 	#home .main-header {
 		position: fixed;
 		width: 100%;
 		margin: 0 auto;
 		z-index: 99;
-		top: 20px;
+		top: 420px;
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
@@ -447,37 +481,40 @@
 	#home .menu-responsive ul li.active a {
 		color: #ec523f;
 	}
-  #home .profile-photo{
-		background: url(../assets/img/radhi1.JPG) no-repeat;
-		height: 300px;
-		border-radius: 150px/300px;
-		-moz-border-radius: 150px/300px;
-		-webkit-border-radius: 150px/300px;
+
+
+	#home .content-section {
+		margin-top: 80px;
+		padding-top: 60px;
 	}
-	#home .site-header ul.social-icons {
-		position: relative;
-		z-index: 11;
-		top: 440px;
-		margin: 30px 0;
+
+	#home .heading-section {
+		margin-bottom: 60px;
 	}
-	#home .site-header ul.social-icons li {
+	#home .heading-section h2 {
+		font-size: 28px;
+		font-weight: 600;
+		text-transform: uppercase;
+		border-bottom: 1px solid #444444;
 		display: inline-block;
-		margin: 0 2px;
 	}
-	#home .site-header ul.social-icons li a {
-		width: 36px;
-		height: 36px;
-		background-color: white;
+	#home .heading-section p {
 		color: #444444;
-		text-align: center;
-		line-height: 36px;
-		border-radius: 18px;
-		-webkit-border-radius: 18px;
-		-moz-border-radius: 18px;
+		font-size: 16px;
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-top: 10px;
 	}
 
 	#home .small-text {
 		color: #aaaaaa;
+	}
+
+	#home .space-fixed {
+		width: 100%;
+		height: 130px;
+		overflow: hidden;
+		position: relative;
 	}
 
 /*################################################################
