@@ -307,6 +307,7 @@
 		box-sizing: border-box;
 	}
 
+
 	#home button,
 	#home input,
 	#home select,
@@ -354,6 +355,9 @@
 	#home .site-header{
 		height: 100vh;
 		background: #384452;
+	}
+	#about{
+		margin-top: 10vh;
 	}
   #home .profile-photo{
 		background: url(../assets/img/radhi1.JPG) no-repeat;
