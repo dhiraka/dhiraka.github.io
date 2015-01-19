@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
-@import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
 /*	################################################################
@@ -201,7 +200,7 @@
 	HOME
 	################################################################# */
 	.site-main{
-		background: url(../assets/img/sugarcane.jpg) no-repeat;
+		color: #384452;
 	}
 
 	#home body.blurred > * {
@@ -356,7 +355,7 @@
 		height: 100vh;
 	}
   #home .profile-photo{
-		background: url(../assets/img/radhi.jpg) no-repeat;
+		background: url(../assets/img/radhi1.jpg) no-repeat;
 		height: 400px;
 	}
 	#home .site-header ul.social-icons {
