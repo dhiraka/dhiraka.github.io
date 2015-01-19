@@ -352,6 +352,9 @@
 		border-top: 1px solid #e2e2e2;
 		margin: 40px 0;
 	}
+	#home .site-header{
+		height: 100vh;
+	}
 
 	#home .site-header ul.social-icons {
 		position: relative;
@@ -380,7 +383,7 @@
 		width: 100%;
 		margin: 0 auto;
 		z-index: 99;
-		top: 94px;
+		top: 194px;
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
@@ -502,23 +505,6 @@
 		height: 130px;
 		overflow: hidden;
 		position: relative;
-	}
-
-	#services{
-		margin-top: 250px;
-		margin-bottom: 100px;
-	}
-
-	/* Services Wrap */
-	#service {
-		margin-top: 100px;
-		margin-bottom: 80px;
-	}
-
-	#home #service i {
-		color: #00b3fe;
-		font-size: 60px;
-		padding: 15px;
 	}
 
 /*################################################################
@@ -902,46 +888,4 @@ $Color_fullstack: #A53836;
 	.copyright{
 		margin-top: 20px;
 		text-align: center;
-	}
-
-/*	################################################################
-	PAGE CONFIGURATIONS
-	################################################################# */
-	/* General Tweaks */
-
-	#blue {
-		background: #00b3fe;
-		margin-top: 60px;
-		margin-bottom: 60px;
-		padding-top: 25px;
-		padding-bottom: 25px;
-	}
-
-	#blue h3 {
-		color: white;
-		margin-left: 15px;
-	}
-
-	.ctitle {
-		color: #00b3fe;
-		font-weight: 700;
-		margin-bottom: 15px;
-	}
-
-	csmall {
-		font-size: 12px;
-		color: #b3b3b3;
-	}
-	csmall2 {
-		font-size: 12px;
-		color: #f39c12
-	}
-
-	.spacing {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	.badge-theme {
-		background: #00b3fe;
 	}
