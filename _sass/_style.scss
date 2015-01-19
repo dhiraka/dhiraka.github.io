@@ -376,6 +376,17 @@
 		-moz-border-radius: 18px;
 	}
 
+	#home .main-header {
+		position: fixed;
+		width: 100%;
+		margin: 0 auto;
+		z-index: 99;
+		top: 20px;
+		-webkit-transition: all 150ms ease-in-out;
+		-moz-transition: all 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
+	}
+
 	#home #menu-wrapper {
 		background-color: white;
 		overflow: hidden;
