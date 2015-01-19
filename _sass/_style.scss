@@ -222,9 +222,6 @@
 		list-style: none;
 	}
 
-
-
-
 	#home a:focus {
 		outline: none;
 		text-decoration: none;
@@ -348,7 +345,7 @@
 		background: #384452;
 	}
 	#home #about{
-		top: 10vh;
+		top: 100px;
 	}
   #home .profile-photo{
 		background: url(../assets/img/radhi1.JPG) no-repeat;
@@ -676,6 +673,10 @@ $Color_fullstack: #A53836;
 	################################################################# */
 	#resume{
 		margin: 5%;
+	}
+
+	#resume p{
+		color: black;
 	}
 
 	.nav-tabs>li{
