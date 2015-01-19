@@ -359,6 +359,7 @@
 	#home .site-header ul.social-icons {
 		position: relative;
 		z-index: 11;
+		top: 380px;
 		margin: 30px 0;
 		background-color: #2B2E31;
 	}
@@ -383,7 +384,7 @@
 		width: 100%;
 		margin: 0 auto;
 		z-index: 99;
-		top: 194px;
+		top: 420px;
 		-webkit-transition: all 150ms ease-in-out;
 		-moz-transition: all 150ms ease-in-out;
 		transition: all 150ms ease-in-out;
