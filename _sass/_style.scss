@@ -299,6 +299,8 @@
 	}
 	#home p{
 		color: white;
+		font-size: medium;
+		padding: 0 40px;
 	}
 
 	#home *, #home *:before, #home *:after {
@@ -352,7 +354,7 @@
 		z-index: 11;
 		top: 230px;
 	}
-  #home .profile-photo{
+	#home .profile-photo{
 		background: url(../assets/img/radhi1.JPG) no-repeat;
 		height: 300px;
 		border-radius: 150px/300px;
