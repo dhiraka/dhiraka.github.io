@@ -293,14 +293,18 @@
 		text-decoration: none;
 	}
 
-	#home h1, h2, h3, h4, h5, h6 {
+	#home h1, h4{
 		font-family: "Open Sans", Arial, sans-serif;
 		color: white;
+	}
+	#home h4{
+		margin-top: 57px;
 	}
 	#home p{
 		color: white;
 		font-size: medium;
 		padding: 0 40px;
+		margin-top: 21px;
 	}
 
 	#home *, #home *:before, #home *:after {
