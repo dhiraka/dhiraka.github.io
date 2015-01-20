@@ -347,7 +347,7 @@
 	#home #about{
 		position: relative;
 		z-index: 11;
-		top: 172px;
+		top: 230px;
 	}
   #home .profile-photo{
 		background: url(../assets/img/radhi1.JPG) no-repeat;
@@ -355,27 +355,6 @@
 		border-radius: 150px/300px;
 		-moz-border-radius: 150px/300px;
 		-webkit-border-radius: 150px/300px;
-	}
-	#home .site-header ul.social-icons {
-		position: relative;
-		z-index: 11;
-		top: 232px;
-		margin: 30px 0;
-	}
-	#home .site-header ul.social-icons li {
-		display: inline-block;
-		margin: 0 2px;
-	}
-	#home .site-header ul.social-icons li a {
-		width: 36px;
-		height: 36px;
-		background-color: white;
-		color: #444444;
-		text-align: center;
-		line-height: 36px;
-		border-radius: 18px;
-		-webkit-border-radius: 18px;
-		-moz-border-radius: 18px;
 	}
 
 	#home .main-header {
