@@ -353,6 +353,12 @@
 		height: 100vh;
 		background: #384452;
 	}
+	@media handheld {
+  #home .site-header{
+		height: 200%;
+		background: #384452;
+	}
+}
 	#home #about{
 		position: relative;
 		z-index: 11;
