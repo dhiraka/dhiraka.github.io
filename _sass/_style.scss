@@ -360,14 +360,12 @@
 		}
 	}
 	#home #about{
-		position: relative;
-		z-index: 11;
-		top: 35vh;
+		padding-top: 150px;
 	}
 	#home .profile-photo img{
-		border-radius: 150px/300px;
-		-moz-border-radius: 150px/300px;
-		-webkit-border-radius: 150px/300px;
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
 	}
 
 	#home .main-header {
