@@ -480,7 +480,7 @@ layout: default
 
  function refreshWaypoints() {
    setTimeout(function() {
-   }, 1000);   
+   }, 1000);
  }
 
  $('nav.portfolio-filter ul a').on('click', function() {
@@ -510,27 +510,27 @@ layout: default
 }
 
 function setColumns() {
-  var winWidth = $(window).width(), 
-  columnNumber = getColumnNumber(), 
+  var winWidth = $(window).width(),
+  columnNumber = getColumnNumber(),
   itemWidth = Math.floor(winWidth / columnNumber);
 
-  $container.find('.portfolio-item').each(function() { 
-   $(this).css( { 
-     width : itemWidth + 'px' 
+  $container.find('.portfolio-item').each(function() {
+   $(this).css( {
+     width : itemWidth + 'px'
    });
  });
 }
 
-function setPortfolio() { 
+function setPortfolio() {
  setColumns();
  $container.isotope('reLayout');
 }
 
-$container.imagesLoaded(function () { 
+$container.imagesLoaded(function () {
  setPortfolio();
 });
 
-$(window).on('resize', function () { 
+$(window).on('resize', function () {
   setPortfolio();
 });
 })(jQuery);

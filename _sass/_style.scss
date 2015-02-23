@@ -1,3 +1,4 @@
+$primary-color: #384452;
 a {
 	color: #ec523f;
 	text-decoration: none;
@@ -12,7 +13,7 @@ a {
 #home{
 	.site-header{
 		min-height: 100vh;
-		background: #384452;
+		background: $primary-color;
 		ul, li{
 			margin: 0;
 			padding: 0;
@@ -156,7 +157,7 @@ a {
 			}
 			h3{
 				margin:-10px 0 10px;
-				font-size:16px;
+				font-size:1.5em;
 				text-transform:uppercase;
 			}
 		}
@@ -166,13 +167,13 @@ a {
 			color:white;
 			margin:0;
 			padding:40px 5px 0;
-			font-size:16px;
+			font-size:1.5em;
 			text-transform:uppercase;
 		}
 		.dmbutton{
 			display:inline-block;
 			margin:30px 5px 20px 5px;
-			font-size:13px;
+			font-size:1.2em;
 		}
 
 		.bg{
@@ -379,7 +380,6 @@ a {
 			}
 			.testimonial-inner {
 				color:#858586;
-				font-size: 14px;
 				.pull-left{
 					border-right: 1px solid #e7e7e7;
 					padding-right: 15px;
@@ -403,26 +403,31 @@ a {
 		}
 	}
 }
-
+$contact-font-color: #bfc9d3;
+$contact-font-on-hover: #00b3fe;
 #contact {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: $primary-color;
+	.hline-w {
+		border-bottom: 2px solid #ffffff;
+		margin-bottom: 25px;
+	}
 	p {
-		color: #bfc9d3;
+		color: $contact-font-color;
 	}
 	a{
-		color: #bfc9d3;
+		color: $contact-font-color;
 	}
 	h4 {
 		color: white;
 	}
 	i {
-		font-size: 30px;
-		color: #bfc9d3;
+		font-size: 2.2em;
+		color: $contact-font-color;
 		padding-right: 25px;
 		&:hover {
-			color: #00b3fe
+			color: $contact-font-on-hover;
 		}
 	}
 }
