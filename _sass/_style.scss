@@ -1,6 +1,6 @@
 $primary-color: #384452;
 a {
-	color: #ec523f;
+	color: #428bca;
 	text-decoration: none;
 	-webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
@@ -170,12 +170,35 @@ a {
 			font-size:1.5em;
 			text-transform:uppercase;
 		}
-		.dmbutton{
-			display:inline-block;
+		.dmbutton {
+			background:rgba(0, 0, 0, 0);
+			border: 1px solid white;
+			color: white;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+			padding: 1.025em 2.25em 1.0875em 2.25em;
+			letter-spacing:0.85px;
+			cursor: pointer;
+			line-height: normal;
+			margin: 0 0 1.25em;
+			text-decoration: none;
+			text-align: center;
+			font-weight: normal !important;
 			margin:30px 5px 20px 5px;
 			font-size:1.2em;
+			display: inline-block;
+			transition: background-color 300ms ease-out;
+			-webkit-transition: background-color 300ms ease-out;
+			-moz-transition: background-color 300ms ease-out;
+			-webkit-appearance: none;
 		}
-
+		.dmbutton:hover,
+		.dmbutton:active,
+		.dmbutton:focus{
+			color: white;
+			background-color: #222222;
+			border-color: white;
+		}
 		.bg{
 			height:100%;
 			width:100%;
